@@ -1,0 +1,25 @@
+/*
+    SubmitButtonColor: #596D48;
+    InputBorder: #E5E7EB;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+}
+
+.logo-container {
+
+}
+
+.form-container {
+
+}
+
+fieldset {
+    box-shadow: 0px 2px 1px black;
+}
