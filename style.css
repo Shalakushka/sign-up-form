@@ -2,3 +2,29 @@
     SubmitButtonColor: #596D48;
     InputBorder: #E5E7EB;
 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.img-container {
+    border: 1px solid red;
+    flex: 1;
+}
+
+.img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.form-container {
+    border: 1px solid blue;
+    flex: 2;
+}
