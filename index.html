@@ -13,6 +13,51 @@
             </div>
             <p>Photo by <a href="">Halie West</a> on <a href="">Unsplash</a></p>
         </div>
-        <div class="form-container"></div>
+        <div class="form-container">
+            <div class="text-container">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <form action="https://httpbin.org/post" method="post">
+                <fieldset>
+                    <legend>Let's do this!</legend>
+                    <!--Name Section-->
+                    <div>
+                        <div class="input-container">
+                            <label>FIRST NAME</label>
+                            <input type="text" name="firstName">
+                        </div>
+                        <div class="input-container">
+                            <label>LAST NAME</label>
+                            <input type="text" name="lastName">
+                        </div>
+                    </div>
+                    <!--Contact Section-->
+                    <div>
+                        <div class="input-container">
+                            <label>EMAIL</label>
+                            <input type="email" name="email">
+                        </div>
+                        <div class="input-container">
+                            <label>PHONE NUMBER</label>
+                            <input type="tel" name="phone">
+                        </div>
+                    </div>
+                    <!--Password Section-->
+                    <div>
+                        <div class="input-container">
+                            <label>PASSWORD</label>
+                            <input type="password" name="password">
+                        </div>
+                        <div class="input-container">
+                            <label>CONFIRM PASSWORD</label>
+                            <input type="password" name="password">
+                        </div>
+                    </div>
+                </fieldset>
+                <button type="submit">Create Account</button>
+            </form>
+            <p>Already have an account? <a href="">Log in</a></p>
+        </div>
     </body>
 </html>

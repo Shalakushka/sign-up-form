@@ -14,7 +14,6 @@ body {
 }
 
 .img-container {
-    border: 1px solid red;
     flex: 1;
     background-image: url(img/logoBackground.jpg);
     background-size: cover;
@@ -56,6 +55,110 @@ body {
 }
 
 .form-container {
-    border: 1px solid blue;
     flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #F9FAFB;
+}
+
+.text-container {
+    margin-top: 10vh;
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-left: 6vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form button {
+    margin-left: 6vh;
+    padding: 15px;
+    width: 250px;
+    color: white;
+    background-color: #596D48;
+    border: 0;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 9px 1px rgba(0,0,0,0.42);
+    cursor: pointer;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    border: none;
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 9px 1px rgba(0,0,0,0.42);
+    padding-left: 6vh;
+    padding-bottom: 30px;
+}
+
+legend {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+fieldset > div {
+    display: flex;
+    gap: 50px;
+}
+
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-container label {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.input-container input {
+    width: 250px;
+    height: 30px;
+    padding-left: 5px;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-container input:focus {
+    outline: none;
+    border: 2px solid rgb(0, 153, 255);
+}
+
+.input-container input:invalid {
+    border: 2px solid red;
+}
+
+.form-container > p {
+    margin-left: 6vh;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-container > p a {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
 }
